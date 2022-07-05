@@ -4,7 +4,7 @@ public class tuermeHanoi {
         if (n == 1) {
             System.out.println("Lege die Scheibe von Turm " + a + " auf Turm " + c + ".");
         } else {
-            bewegen(a, c, b, n-1);          //Rekursion
+            bewegen(a, c, b, n-1);          
             bewegen(a, b, c, 1);
             bewegen(b, a , c , n-1);
         }
